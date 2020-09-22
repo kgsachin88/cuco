@@ -29,7 +29,7 @@ public class extenttest extends extebtbaseclase{
 	public void failTest(Method m) {
 		
 		logger = extent.createTest(m.getName());;
-		Assert.assertEquals("we", "we");
+		Assert.assertEquals("we", "weeeee");
 		
 	}
 	

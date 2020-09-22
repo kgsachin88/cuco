@@ -31,7 +31,7 @@ public class extebtbaseclase {
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		
-		htmlReporter.config().setDocumentTitle("Automation Report"); // Tittle of Report
+		htmlReporter.config().setDocumentTitle("Automation Reportxczx"); // Tittle of Report
 		htmlReporter.config().setReportName("Extent Report V4"); // Name of the report
 		htmlReporter.config().setTheme(Theme.DARK);
 		

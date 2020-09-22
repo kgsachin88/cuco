@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Basic Suite]">
+  <listeners>
+    <listener class-name="org.listners.TetListners"/>
+  </listeners>
+  <test name="Basics(failed)">
+    <classes>
+      <class name="org.TestJava.testNGPract1">
+        <methods>
+          <include name="TearDown"/>
+          <include name="test3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.TestJava.testNGPract1 -->
+    </classes>
+  </test> <!-- Basics(failed) -->
+</suite> <!-- Failed suite [Basic Suite] -->
